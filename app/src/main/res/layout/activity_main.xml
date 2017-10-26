@@ -7,6 +7,27 @@
     android:layout_height="match_parent"
     tools:context="br.usjt.provaint201516660.MainActivity">
 
-   
+
+    <EditText
+        android:id="@+id/edit_tabuada"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_tabuada"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_number"
+        android:layout_weight="1" /> >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="enviar"/>
+
+
 
 </LinearLayout>

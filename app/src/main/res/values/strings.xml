@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ProvaInt201516660</string>
+    <string name="app_name">Prova Intermediária</string>
+    <string name="edit_tabuada">Tabuada do </string>
+    <string name="edit_number">Até </string>
+    <string name="button_send">Calcular</string>
 </resources>
+
